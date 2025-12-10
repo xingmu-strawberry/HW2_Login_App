@@ -1,0 +1,41 @@
+# --------------------
+# Android Studio / IntelliJ IDEA Files
+# --------------------
+*.iml
+.gradle
+/local.properties
+.DS_Store
+*.log
+
+# IDE 缓存与配置
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+# 也可以直接忽略整个 .idea/ 目录，但如果 team 需要共享 run configurations，则不建议。
+# / .idea
+
+# --------------------
+# Build and Output Files
+# --------------------
+/build
+/captures
+.externalNativeBuild
+.cxx
+/out
+/aapt-generated-sources
+
+# --------------------
+# Security Files (CRITICAL - DO NOT UPLOAD)
+# --------------------
+# 签名密钥文件
+*.jks
+*.keystore
+
+# --------------------
+# Android Studio Local Files
+# --------------------
+# 如果您使用了 Android SDK Manager 的符号文件
+/ndk-modules
